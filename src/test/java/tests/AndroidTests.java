@@ -10,15 +10,15 @@ public class AndroidTests extends AndroidBaseClass{
 	
 	@Test
 	public void testOne(){
-		driver.get("https://google.com");
-		driver.findElement(By.name("q")).sendKeys("Automation");
-		driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
-		try {
-			TimeUnit.SECONDS.sleep(5);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+//		driver.get("https://google.com");
+//		driver.findElement(By.name("q")).sendKeys("Automation");
+//		driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
+//		try {
+//			TimeUnit.SECONDS.sleep(5);
+//		} catch (InterruptedException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 		System.out.println("Completed");
 	}
 }
